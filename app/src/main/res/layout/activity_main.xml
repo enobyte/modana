@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.MainActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <include layout="@layout/status_layout"/>
+    <include layout="@layout/feature_layout"/>
+    <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider"/>
+
+    <include layout="@layout/menu_layout"/>
+
+    <include layout="@layout/swipe_attandance_layout"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Modana</string>
+    <string name="balance">Rp. 1000.000</string>
+    <string name="title_balance">Modanaku</string>
+    <string name="image_of_menu">img_menu_desc</string>
+    <string name="title_attandance">Attandance</string>
+    <string name="title_lending">Lending</string>
+    <string name="title_payroll">Payroll</string>
+    <string name="title_leave">Leave</string>
+    <string name="title_employee">Employee</string>
+    <string name="title_more">More</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_attendance"
+            android:layout_above="@+id/swipe_attandance"
+            android:layout_marginBottom="7dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/nunito_semibold"/>
+
+    <com.stfalcon.swipeablebutton.SwipeableButton
+            android:id="@+id/swipe_attandance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:checkedIcon="@drawable/ic_dehaze_black_24dp"
+            app:uncheckedIcon="@drawable/ic_dehaze_black_24dp"
+            app:textColorChecked="@color/white"
+            app:textColorUnChecked="@color/white"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            app:textUnchecked="Slide to START shift"
+            app:textChecked="Slide to STOP shift"
+            app:checkedBackground="@drawable/checkbackgournd_swipe"
+            app:uncheckedBackground="@drawable/uncheckbackgournd_swipe"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/time_attendance"
+            android:layout_alignParentEnd="true"
+            android:textStyle="bold"
+            android:id="@+id/time"
+            android:layout_toEndOf="@+id/time_attendance"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/nunito_bold"/>
+
+</RelativeLayout>
